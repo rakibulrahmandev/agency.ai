@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import assets from '../../assets/assets'
+import ThemeButton from '../ThemeTogglerButton/ThemeButton'
 
 export default function Header({theme, setTheme}) {
 
@@ -21,6 +22,9 @@ export default function Header({theme, setTheme}) {
                     <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='border-gray-700/70 sm:hover:border-b'>Contact Us</a>
                 </div>
                 <div className='flex items-center gap-2 sm:gap-4'>
+                    <div className='w-auto'>
+                        <ThemeButton theme={theme} setTheme={setTheme} />
+                    </div>
                     <div className='w-auto cursor-pointer'>
                         <img src={theme === 'dark' ? assets?.menu_icon_dark : assets?.menu_icon} alt="menu icon" onClick={() => setSidebarOpen(true)} className='w-8 sm:hidden' />
                     </div>
