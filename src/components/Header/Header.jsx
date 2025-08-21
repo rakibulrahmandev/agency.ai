@@ -21,14 +21,12 @@ export default function Header({theme, setTheme}) {
                     <a onClick={() => setSidebarOpen(false)} href="#our-work" className='border-gray-700/70 sm:hover:border-b'>Our Work</a>
                     <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='border-gray-700/70 sm:hover:border-b'>Contact Us</a>
                 </div>
-                <div className='flex items-center gap-2 sm:gap-4'>
-                    <div className='w-auto'>
-                        <ThemeButton theme={theme} setTheme={setTheme} />
-                    </div>
+                <div className='flex items-center gap-3 sm:gap-3'>
+                    <ThemeButton theme={theme} setTheme={setTheme} />
                     <div className='w-auto cursor-pointer'>
                         <img src={theme === 'dark' ? assets?.menu_icon_dark : assets?.menu_icon} alt="menu icon" onClick={() => setSidebarOpen(true)} className='w-8 sm:hidden' />
                     </div>
-                    <a href="#contact-us" className='text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer hover:scale-103 transition-all'>
+                    <a href="#contact-us" className='text-sm max-sm:hidden flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full cursor-pointer'>
                         Connect <img src={assets?.arrow_icon} width={14} alt="arrow icon" />
                     </a>
                 </div>
