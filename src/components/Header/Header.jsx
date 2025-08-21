@@ -16,10 +16,10 @@ export default function Header({theme, setTheme}) {
                     <div className='w-auto cursor-pointer'>
                         <img src={assets?.close_icon} alt="close icon" className='w-5 absolute right-4 top-4 sm:hidden' onClick={() => setSidebarOpen(false)}/>
                     </div>
-                    <a onClick={() => setSidebarOpen(false)} href="#" className='border-gray-700/70 sm:hover:border-b'>Home</a>
-                    <a onClick={() => setSidebarOpen(false)} href="#services" className='border-gray-700/70 sm:hover:border-b'>Services</a>
-                    <a onClick={() => setSidebarOpen(false)} href="#our-work" className='border-gray-700/70 sm:hover:border-b'>Our Work</a>
-                    <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='border-gray-700/70 sm:hover:border-b'>Contact Us</a>
+                    <a onClick={() => setSidebarOpen(false)} href="#" className='border-gray-700/70 sm:hover:border-b dark:border-white'>Home</a>
+                    <a onClick={() => setSidebarOpen(false)} href="#services" className='border-gray-700/70 sm:hover:border-b dark:border-white'>Services</a>
+                    <a onClick={() => setSidebarOpen(false)} href="#our-work" className='border-gray-700/70 sm:hover:border-b dark:border-white'>Our Work</a>
+                    <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='border-gray-700/70 sm:hover:border-b dark:border-white'>Contact Us</a>
                 </div>
                 <div className='flex items-center gap-3 sm:gap-3'>
                     <ThemeButton theme={theme} setTheme={setTheme} />
