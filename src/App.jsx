@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
+import Services from "./components/Services/Services";
 
 export default function App() {
 
@@ -13,6 +14,7 @@ export default function App() {
                 <Header theme={theme} setTheme={setTheme} />
                 <Home />
                 <TrustedBy />
+                <Services />
             </div>
         </>
     )
