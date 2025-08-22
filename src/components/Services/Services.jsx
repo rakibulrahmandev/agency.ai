@@ -1,4 +1,5 @@
 import assets from "../../assets/assets"
+import Title from "../Title/Title"
 
 export default function Services() {
 
@@ -31,6 +32,7 @@ export default function Services() {
                 <div className="w-auto">
                     <img src={assets?.bgImage2} alt="background image" className="absolute -top-110 -left-70 -z-1"/>
                 </div>
+                <Title title="How can we help?" description="From strategy to execution, we craft digital solutions that move your business forward." />
             </div>
         </>
     )
