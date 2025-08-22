@@ -13,6 +13,7 @@ export default function Home() {
                     <p className='text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3'>Creating meaningful connections and turning big ideas into interactive digital experiences.</p>
                     <div className='relative'>
                         <img src={assets?.hero_img} alt="hero image" className='w-full max-w-6xl' />
+                        <img src={assets?.bgImage1} alt="background image" className='absolute -top-40 -right-40 sm:-top-100 sm:-right-70 -z-1' />
                     </div>
                 </div>
             </div>
