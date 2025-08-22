@@ -1,4 +1,5 @@
 import assets from "../../assets/assets"
+import ServiceCard from "../ServiceCard/ServiceCard"
 import Title from "../Title/Title"
 
 export default function Services() {
@@ -33,6 +34,13 @@ export default function Services() {
                     <img src={assets?.bgImage2} alt="background image" className="absolute -top-110 -left-70 -z-1"/>
                 </div>
                 <Title title="How can we help?" description="From strategy to execution, we craft digital solutions that move your business forward." />
+                <div className="flex flex-col md:grid grid-cols-2">
+                    {
+                        servicesData.map((service, idx) => (
+                            <ServiceCard key={idx} service={service} idx={idx} />
+                        ))
+                    }
+                </div>
             </div>
         </>
     )
