@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
-import Services from "./components/Services/Services";
+import Services from "./components/Servicess/Services";
 
 export default function App() {
 
