@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
 import Services from "./components/Servicess/Services";
 import OurWork from "./components/OurWork/OurWork";
+import Teams from "./components/Teams/Teams";
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
                 <TrustedBy />
                 <Services />
                 <OurWork />
+                <Teams />
             </div>
         </>
     )
