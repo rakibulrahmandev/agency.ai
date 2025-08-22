@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
 import Services from "./components/Servicess/Services";
+import OurWork from "./components/OurWork/OurWork";
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
                 <Home />
                 <TrustedBy />
                 <Services />
+                <OurWork />
             </div>
         </>
     )
