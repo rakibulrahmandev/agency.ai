@@ -6,6 +6,7 @@ import Services from "./components/Servicess/Services";
 import OurWork from "./components/OurWork/OurWork";
 import Teams from "./components/Teams/Teams";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
                 <OurWork />
                 <Teams />
                 <Contact />
+                <Footer />
             </div>
         </>
     )
