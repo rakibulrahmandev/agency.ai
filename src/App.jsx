@@ -22,7 +22,7 @@ export default function App() {
                 <OurWork />
                 <Teams />
                 <Contact />
-                <Footer />
+                <Footer theme={theme} />
             </div>
         </>
     )
