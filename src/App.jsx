@@ -5,6 +5,7 @@ import TrustedBy from "./components/TrustedBy/TrustedBy";
 import Services from "./components/Servicess/Services";
 import OurWork from "./components/OurWork/OurWork";
 import Teams from "./components/Teams/Teams";
+import Contact from "./components/Contact/Contact";
 
 export default function App() {
 
