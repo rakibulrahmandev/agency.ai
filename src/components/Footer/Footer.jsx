@@ -3,7 +3,7 @@ import assets from "../../assets/assets";
 export default function Footer({theme}) {
     return (
         <>
-            <div className="bg-slate-50 dark:bg-gray-900/70 pt-20 sm:pt-40 px-4 sm:px-10 lg:px-24 xl:px-40">
+            <div className="bg-slate-50 dark:bg-gray-900/70 pt-10 sm:pt-10 px-4 sm:px-10 lg:px-24 xl:px-40">
                 <div className="flex justify-between lg:items-center max-lg:flex-col gap-10">
                     <div className="space-y-5 text-sm text-gray-700 dark:text-gray-400">
                         <img src={theme === 'dark' ? assets?.logo_dark : assets?.logo} alt="footer logo" className="w-32 sm:w-44" />
