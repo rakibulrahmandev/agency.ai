@@ -19,6 +19,7 @@ export default function App() {
                 <Services />
                 <OurWork />
                 <Teams />
+                <Contact />
             </div>
         </>
     )
